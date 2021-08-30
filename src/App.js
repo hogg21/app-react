@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Fconponents from './Fconponents';
+import Class from './Class'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Class></Class>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          web developer
         </p>
         <a
           className="App-link"
@@ -15,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          WEB developer
         </a>
       </header>
     </div>
